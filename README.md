@@ -4,7 +4,7 @@ A simulation of page replacement algorithm that counts how many faults occurred.
 * Optimal Algorithm (OTM)  
 * Least Recently Used (LRU)  
 ## Usage  
-The program use a input file (input.txt) that is structured as followed:  
+The program use a input file (input) that is structured as followed:  
 In each line is a page id that will be accessed.  
 ### Input example  
 ```
@@ -23,7 +23,7 @@ In each line is a page id that will be accessed.
 5
 ```
 ### Output example
-The output (output.txt) is the list of algorithm names followed by the number of faults occurred.  
+The output (output) is the list of algorithm names followed by the number of faults occurred.  
 ```
 FIFO 10
 OTM 6
